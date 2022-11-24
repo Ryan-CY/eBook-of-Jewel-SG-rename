@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21208.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ynJ-I9-xGB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21219" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ynJ-I9-xGB">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21191"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21200"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,8 +24,10 @@
                                 <rect key="frame" x="39" y="466" width="260" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="25"/>
-                                <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="linkColor"/>
+                                <size key="shadowOffset" width="4" height="-2"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="outside" translatesAutoresizingMaskIntoConstraints="NO" id="fdG-HX-gAK">
                                 <rect key="frame" x="-12" y="137" width="413" height="262"/>
@@ -35,8 +37,10 @@
                                 <rect key="frame" x="187" y="546" width="136" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
-                                <color key="textColor" red="0.55492333269648075" green="1" blue="0.99060060782501791" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="linkColor"/>
+                                <size key="shadowOffset" width="4" height="-2"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D08-tt-s90">
                                 <rect key="frame" x="152" y="633" width="87" height="44"/>
@@ -471,7 +475,7 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ohc-aO-i39">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -483,14 +487,14 @@
             </objects>
             <point key="canvasLocation" x="950.76923076923072" y="3.5545023696682461"/>
         </scene>
-        <!--Hot Spot-->
+        <!--Hot Spots-->
         <scene sceneID="78M-Bm-ro0">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="921-Ko-5rs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Hot Spot" image="star.circle" catalog="system" id="gjo-fL-pso"/>
+                    <tabBarItem key="tabBarItem" title="Hot Spots" image="star.circle" catalog="system" id="gjo-fL-pso"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QUU-UV-TS0">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -728,7 +732,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aee-T6-fkY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21.538461538461537" y="3.5545023696682461"/>
+            <point key="canvasLocation" x="-131" y="407"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="b1s-H3-xXY">
@@ -913,13 +917,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKA-cb-YlP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3511" y="1617"/>
+            <point key="canvasLocation" x="5843" y="798"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="CXS-wz-G2e">
             <objects>
                 <tableViewController id="SY6-Da-IhD" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="pLj-Hg-yAx">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="pLj-Hg-yAx">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1024,11 +1028,11 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="132" id="DgU-uv-2zq">
-                                        <rect key="frame" x="0.0" y="312" width="390" height="132"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="131" id="DgU-uv-2zq">
+                                        <rect key="frame" x="0.0" y="312" width="390" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DgU-uv-2zq" id="nbC-4E-VBd">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="132"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="131"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIn-Dd-lR2">
@@ -1073,11 +1077,11 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="130" id="KR7-BI-FLs">
-                                        <rect key="frame" x="0.0" y="444" width="390" height="130"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="131" id="KR7-BI-FLs">
+                                        <rect key="frame" x="0.0" y="443" width="390" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KR7-BI-FLs" id="awB-dv-iCt">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="130"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="131"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LZ-P6-pMy">
@@ -1090,7 +1094,7 @@
                                                     </connections>
                                                 </button>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SS 1" translatesAutoresizingMaskIntoConstraints="NO" id="9Gn-Vu-MSp">
-                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="129" height="130"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWO-iu-BDW">
@@ -1103,7 +1107,7 @@
                                                     </connections>
                                                 </button>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple sotre" translatesAutoresizingMaskIntoConstraints="NO" id="qW0-Mg-n3t">
-                                                    <rect key="frame" x="130" y="0.0" width="130" height="130"/>
+                                                    <rect key="frame" x="130" y="0.0" width="129" height="130"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBb-PK-2gJ">
@@ -1122,11 +1126,11 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="169" id="Jpc-MX-mlx">
-                                        <rect key="frame" x="0.0" y="574" width="390" height="169"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="130" id="Jpc-MX-mlx">
+                                        <rect key="frame" x="0.0" y="574" width="390" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jpc-MX-mlx" id="o09-4S-yw0">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="169"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="130"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YmH-CO-Sff">
@@ -1139,7 +1143,7 @@
                                                     </connections>
                                                 </button>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokemon dance" translatesAutoresizingMaskIntoConstraints="NO" id="euz-eE-1E5">
-                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="129" height="130"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKE-xT-cMn">
@@ -1152,7 +1156,7 @@
                                                     </connections>
                                                 </button>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="canopy park" translatesAutoresizingMaskIntoConstraints="NO" id="QRg-3r-PU4">
-                                                    <rect key="frame" x="130" y="0.0" width="130" height="130"/>
+                                                    <rect key="frame" x="130" y="0.0" width="129" height="130"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIr-v3-NQj">
@@ -1183,7 +1187,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q94-F1-3pw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1880" y="2459.7156398104266"/>
+            <point key="canvasLocation" x="951" y="1511"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pN3-qo-Mk9">
@@ -1205,7 +1209,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d2W-y7-BAY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3048" y="2460"/>
+            <point key="canvasLocation" x="1880" y="1511"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PIn-cU-wV5">
@@ -1296,7 +1300,7 @@ The rest, as they say, is burger history.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bgb-99-UYe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4251" y="1618"/>
+            <point key="canvasLocation" x="6588" y="798"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EKa-op-i6c">
@@ -1385,7 +1389,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="33w-Nj-avV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4974" y="1618"/>
+            <point key="canvasLocation" x="7315" y="798"/>
         </scene>
         <!--Gallery-->
         <scene sceneID="C5s-ea-ipU">
@@ -1394,7 +1398,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                     <tabBarItem key="tabBarItem" title="Gallery" image="photo.artframe" catalog="system" id="D6q-hL-fHG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OIu-Ry-S6m">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1404,7 +1408,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RZg-Yw-YbJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="951" y="2460"/>
+            <point key="canvasLocation" x="222" y="1511"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EcX-lc-hjk">
@@ -1426,7 +1430,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j4m-CZ-ztb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3988" y="2460"/>
+            <point key="canvasLocation" x="2605" y="1511"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Am5-8Z-ays">
@@ -1448,7 +1452,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wmy-TC-cB7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4911" y="2460"/>
+            <point key="canvasLocation" x="3337" y="1511"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RO1-1q-fzx">
@@ -1470,7 +1474,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G0Q-tu-Jmw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3048" y="3242"/>
+            <point key="canvasLocation" x="4266" y="1511"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DGF-Hk-XtW">
@@ -1492,7 +1496,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6SN-YF-M8H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3988" y="3242"/>
+            <point key="canvasLocation" x="4974" y="1511"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="G8C-xa-mB3">
@@ -1514,7 +1518,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UI1-g3-MeG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4911" y="3242"/>
+            <point key="canvasLocation" x="5685" y="1511"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OZL-gM-gRC">
@@ -1536,7 +1540,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nNU-cx-jeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3047.6923076923076" y="3915.63981042654"/>
+            <point key="canvasLocation" x="1880" y="2225"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aZH-qJ-rx2">
@@ -1558,7 +1562,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hsL-Ob-97z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3988" y="3916"/>
+            <point key="canvasLocation" x="2605" y="2224"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RaE-Ye-Zzv">
@@ -1580,7 +1584,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Td4-Ut-c9H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4911" y="3916"/>
+            <point key="canvasLocation" x="3337" y="2224"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="X8U-nm-edu">
@@ -1602,7 +1606,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IHj-cj-tX7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3048" y="4592"/>
+            <point key="canvasLocation" x="4265" y="2224"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kMU-oY-dk6">
@@ -1624,7 +1628,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nKJ-J7-tpt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3988" y="4592"/>
+            <point key="canvasLocation" x="4974" y="2224"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IA2-ks-75Q">
@@ -1646,7 +1650,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O35-Np-jge" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4911" y="4592"/>
+            <point key="canvasLocation" x="5685" y="2224"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="neJ-z0-6GU">
@@ -1668,7 +1672,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RO4-qw-2Ej" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3048" y="5323"/>
+            <point key="canvasLocation" x="1880" y="2992"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fru-Lk-f2t">
@@ -1690,7 +1694,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l8q-Wc-WUb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3988" y="5323"/>
+            <point key="canvasLocation" x="2605" y="2991"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5pH-cm-iuJ">
@@ -1712,7 +1716,7 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uoB-LI-4YE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4910.7692307692305" y="5315.4028436018953"/>
+            <point key="canvasLocation" x="3337" y="2991"/>
         </scene>
     </scenes>
     <resources>
@@ -1752,6 +1756,9 @@ Our Jewel Changi Airport Restaurant menu is packed with food for everyone to enj
         <image name="vortex rainbow" width="1020" height="680"/>
         <image name="vortex雨漩渦" width="900" height="600"/>
         <image name="天懸橋" width="907" height="680"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

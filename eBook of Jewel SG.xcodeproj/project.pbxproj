@@ -290,6 +290,7 @@
 				DEVELOPMENT_TEAM = CFFK3CHSWD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "eBook of Jewel SG/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "星耀樟怡Jewel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +319,7 @@
 				DEVELOPMENT_TEAM = CFFK3CHSWD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "eBook of Jewel SG/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "星耀樟怡Jewel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
